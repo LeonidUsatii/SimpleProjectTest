@@ -1,10 +1,10 @@
 package de.ait.models;
 
 public class User {
-    private String lastName;
-    private String firstName;
-    private int age;
-    private double height;
+    private final String lastName;
+    private final String firstName;
+    private final int age;
+    private final double height;
 
     public User(String lastName, String firstName, int age, double height) {
         this.lastName = lastName;
